@@ -1,0 +1,13 @@
+{
+  "email": {
+    "to": "user@example.com",
+    "from": "IP Change Notify Script <ipchangenotify@local>"
+  },
+  "smtp": {
+    "service": "Gmail",
+    "auth": {
+      "user": "address@gmail.com",
+      "pass": "yay_plain_text"
+    }
+   }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ipchangenotify",
+  "version": "0.0.1",
+  "description": "Log IP address, email when changes.",
+  "author": "Tony Rieker <tony@plenary.org>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "nedb": "^0.11.1",
+    "nodemailer": "^1.3.0",
+    "request-promise": "^0.2.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
