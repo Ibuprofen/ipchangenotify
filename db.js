@@ -1,6 +1,6 @@
 var Db = function () {
   var Datastore = require('nedb');
-  this.db = new Datastore({ filename: './datafile', autoload: true });
+  this.db = new Datastore({ filename: __dirname + '/datafile', autoload: true });
 };
 
 Db.prototype.get = function(cb) {

@@ -1,8 +1,8 @@
-require('./loadconfig');
+require(__dirname + '/loadconfig');
 
 var rp = require('request-promise'),
-    mailer = require('./mailer'),
-    Database = require('./db');
+    mailer = require(__dirname + '/mailer'),
+    Database = require(__dirname + '/db');
 
 var db = new Database();
 
