@@ -9,7 +9,7 @@ Sends out emails when public IP address has changed.
 
 #### Configure
 
-1. `cp config.json.sample config.json`
+1. `cp config.json.sample config.json && chmod 600 config.json`
 1. Edit `config.json`!
 
 #### Execute
